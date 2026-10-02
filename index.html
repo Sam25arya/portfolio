@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Arya Sawant — Engineering IT Student, Frontend Developer, Basic Backend and AI & Robotics Enthusiast">
+  <title>Arya Sawant | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Arya Sawant home">
+      <span class="brand-mark">AS</span>
+      <span>Arya Sawant</span>
+    </a>
+    <nav id="desktopNav" class="nav" aria-label="Main navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#hackathons">Hackathons</a>
+      <a href="#education">Education</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="top-actions">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Toggle theme">☾</button>
+      <a href="./resume/Arya_Sawant_Resume.pdf"
+   class="btn secondary"
+   target="_blank"
+   rel="noopener noreferrer">
+  Resume ↗
+</a>
+
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">PORTFOLIO • 2026</p>
+        <p class="hi">Hi, I'm</p>
+        <h1>Arya <span>Sawant.</span></h1>
+        <p class="role">Engineering IT Student <b>|</b> Frontend Developer <b>|</b> Basic Backend <b>|</b> AI &amp; Robotics Enthusiast</p>
+        <p class="intro">I build interactive web experiences, enjoy solving problems and love exploring new technologies from AI to robotics.</p>
+        <div class="hero-buttons">
+          <a class="primary-btn" href="#projects">View My Projects <span>→</span></a>
+          <a class="outline-btn"
+   href="./resume/Arya_Sawant_Resume.pdf"
+   target="_blank"
+   rel="noopener noreferrer">
+   Open Resume ↗
+</a>
+          <a class="outline-btn" href="#contact">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/Sam25arya" aria-label="https://github.com/Sam25arya" target="_blank" rel="noopener noreferrer">GH</a>
+          <a href="https://www.linkedin.com/in/arya-sawant-432a6641b" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">in</a>
+          <a href="mailto:aryasawant782007@gmail.com" aria-label="aryasawant782007@gmail.com">✉</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="spark spark-a">✦</div>
+        <div class="spark spark-b">✧</div>
+        <div class="portrait-placeholder">
+          <div class="portrait-initials">AS</div>
+          <img src="images/arya.png" alt="Arya Sawant">
+        </div>
+        <div class="hero-note">Better<br>Code<br>Bigger<br>Dreams ♡</div>
+      </div>
+    </section>
+
+    <section class="two-col section">
+      <article id="about" class="panel reveal">
+        <div class="section-heading">
+          <h2>About Me</h2>
+          <span>✦</span>
+        </div>
+        <p>I'm Arya Sawant, an Engineering IT student interested in building web applications, exploring AI, and working on hardware projects like robotics.</p>
+        <p>I enjoy learning new technologies, solving real-world problems, and taking part in hackathons and competitions.</p>
+        <a class="small-btn" href="#contact">Know More About Me →</a>
+      </article>
+
+      <article id="skills" class="panel reveal">
+        <div class="section-heading">
+          <h2>Skills</h2>
+        </div>
+        <div class="skill-group">
+          <h3>Frontend</h3>
+          <div class="skill-grid">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Tailwind</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Backend (Basic)</h3>
+          <div class="skill-grid">
+            <span>Node.js</span><span>Express</span><span>MongoDB</span><span>Firebase</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Others</h3>
+          <div class="skill-grid">
+            <span>Git</span><span>GitHub</span><span>VS Code</span><span>Figma</span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading wide reveal">
+        <div><h2>Projects</h2><p>Selected work and experiments.</p></div>
+        <div class="filters" role="group" aria-label="Project filters">
+          <button class="filter active" data-filter="all" type="button">All</button>
+          <button class="filter" data-filter="web" type="button">Web</button>
+          <button class="filter" data-filter="ai" type="button">AI</button>
+          <button class="filter" data-filter="robotics" type="button">Robotics</button>
+        </div>
+      </div>
+      <div class="project-grid">
+        <article class="project-card reveal" data-type="web">
+          <div class="project-image web-image">PORTFOLIO</div>
+          <div class="project-content">
+            <h3>Portfolio Website</h3>
+            <p>A responsive and interactive portfolio built with modern web technologies.</p>
+            <div class="tags"><span>JavaScript</span><span>CSS</span><span>HTML</span></div>
+          </div>
+        </article>
+        <article class="project-card reveal" data-type="ai">
+          <div class="project-image ai-image">AI CHAT</div>
+          <div class="project-content">
+            <h3>AI Chatbot</h3>
+            <p>An AI chat interface designed to answer questions through a secure backend.</p>
+            <div class="tags"><span>AI</span><span>API</span><span>Node.js</span></div>
+          </div>
+        </article>
+        <article class="project-card reveal" data-type="robotics">
+          <div class="project-image robot-image">ROBOT</div>
+          <div class="project-content">
+            <h3>Robotics Project</h3>
+            <p>A compact robot concept using ESP32-S3, sensors and motor control.</p>
+            <div class="tags"><span>ESP32</span><span>C/C++</span><span>Arduino</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="two-col lower section">
+      <article id="hackathons" class="panel reveal">
+        <div class="section-heading"><h2>Hackathons &amp; Competitions</h2><span>View All →</span></div>
+        <ul class="timeline">
+          <li><strong>Prompt Run 2026 – Frontend Arena</strong><small>Unstop • Online • 6 Hours</small><em>Participated</em></li>
+          <li><strong>National Student Cloud &amp; AI Innovation Challenge – S3</strong><small>Audit: Oct 11 – Oct 25, 2026</small><em>Participated</em></li>
+          <li><strong>IIFT BLASH Commercio Artikel</strong><small>Article Competition • 2026</small><em>Participated</em></li>
+        </ul>
+      </article>
+
+      <!-- EDUCATION -->
+<article id="education" class="panel reveal">
+  <div class="section-heading">
+    <h2>Education</h2>
+    <button id="educationBtn" class="view-more-btn" type="button">
+      View More →
+    </button>
+  </div>
+
+  <ul class="timeline">
+    <li>
+      <strong>B.E. in Information Technology</strong>
+      <small>Engineering • 2nd Year</small>
+    </li>
+
+    <li>
+      <strong>Higher Secondary (11th & 12th)</strong>
+      <small>SVCV</small>
+    </li>
+
+    <li>
+      <strong>Secondary (10th)</strong>
+      <small>St. Jerome</small>
+    </li>
+  </ul>
+
+  <!-- Detailed Education -->
+  <div id="educationDetails" class="education-details">
+
+    <div class="education-detail-card">
+      <div class="education-detail-icon">🎓</div>
+      <div>
+        <h3>Shree L. R. Tiwari College of Engineering</h3>
+        <p><strong>Course:</strong> B.Tech in Information Technology</p>
+        <p><strong>Year:</strong> 2nd Year</p>
+        <p><strong>Level:</strong> Engineering</p>
+      </div>
+    </div>
+
+    <div class="education-detail-card">
+      <div class="education-detail-icon">🏫</div>
+      <div>
+        <h3>SVP Junior College of Commerce and Science</h3>
+        <p><strong>Classes:</strong> 11th &amp; 12th</p>
+        <p><strong>Level:</strong> Higher Secondary</p>
+      </div>
+    </div>
+
+    <div class="education-detail-card">
+      <div class="education-detail-icon">📚</div>
+      <div>
+        <h3>ST.Jerome convent high school</h3>
+        <p><strong>Class:</strong> 10th</p>
+        <p><strong>Level:</strong> Secondary</p>
+      </div>
+    </div>
+
+  </div>
+</article>
+    </section>
+
+    <!-- CERTIFICATES -->
+<section id="certificates" class="section">
+  <div class="section-heading wide">
+    <div>
+      <h2>Certificates</h2>
+      <p>Certificates and achievements.</p>
+    </div>
+
+    <span>View All →</span>
+  </div>
+
+  <div class="certificate-grid">
+
+    <!-- METAVIBE -->
+    <a class="certificate-card"
+       href="certificates/METAVIBE_2025-26.pdf"
+       target="_blank"
+       rel="noopener">
+
+      <span class="certificate-icon">🏆</span>
+
+      <span class="certificate-info">
+        <strong>METAVIBE</strong>
+        <small>META SUMMIT 2025–26 · Participation</small>
+        <span class="certificate-link">View Certificate →</span>
+      </span>
+
+    </a>
+
+
+    <!-- JARVIS 2025 -->
+    <a class="certificate-card"
+       href="certificates/JARVIS_2025_24hr.pdf"
+       target="_blank"
+       rel="noopener">
+
+      <span class="certificate-icon">⚡</span>
+
+      <span class="certificate-info">
+        <strong>JARVIS 2025</strong>
+        <small>24-Hour Hybrid Hackathon</small>
+        <span class="certificate-link">View Certificate →</span>
+      </span>
+
+    </a>
+
+
+    <!-- JARVIS 2.0 -->
+    <a class="certificate-card"
+       href="certificates/JARVIS_2.0_36hr.pdf"
+       target="_blank"
+       rel="noopener">
+
+      <span class="certificate-icon">🚀</span>
+
+      <span class="certificate-info">
+        <strong>JARVIS 2.0 Build-A-Thon</strong>
+        <small>36-Hour Hybrid Hackathon</small>
+        <span class="certificate-link">View Certificate →</span>
+      </span>
+
+    </a>
+
+
+    <!-- BE 10X -->
+    <a class="certificate-card"
+       href="certificates/be10X.pdf"
+       target="_blank"
+       rel="noopener">
+
+      <span class="certificate-icon">🤖</span>
+
+      <span class="certificate-info">
+        <strong>be10X Certificate</strong>
+        <small>Certificate of Achievement</small>
+        <span class="certificate-link">View Certificate →</span>
+      </span>
+
+    </a>
+
+
+    <!-- INDUSTRIAL TRAINING -->
+    <a class="certificate-card"
+       href="certificates/Industrial_Training_DroneTech.pdf"
+       target="_blank"
+       rel="noopener">
+
+      <span class="certificate-icon">🛠️</span>
+
+      <span class="certificate-info">
+        <strong>Industrial Training</strong>
+        <small>IoT, Embedded Systems, Robotics, 3D Printing &amp; Drone Technology</small>
+        <span class="certificate-link">View Certificate →</span>
+      </span>
+
+    </a>
+
+
+    <!-- POSTER MAKING -->
+    <a class="certificate-card"
+       href="certificates/Poster_Making_Competition.pdf"
+       target="_blank"
+       rel="noopener">
+
+      <span class="certificate-icon">🎨</span>
+
+      <span class="certificate-info">
+        <strong>Poster Making Competition</strong>
+        <small>Certificate of Appreciation · R&amp;D Department</small>
+        <span class="certificate-link">View Certificate →</span>
+      </span>
+
+    </a>
+
+  </div>
+</section>
+
+
+<!-- AI ASSISTANT + CONTACT -->
+<section class="two-col section">
+
+  <article id="ai-assistant" class="panel ai-panel reveal">
+    <div class="section-heading">
+      <h2>AI Assistant</h2>
+      <span>✦</span>
+    </div>
+
+    <p>Ask anything about my skills, projects, education, or experience.</p>
+
+    <div id="chatMessages" class="chat-messages" aria-live="polite">
+      <div class="bot-msg">Hi! Ask me something about Arya.</div>
+    </div>
+
+    <form id="chatForm" class="chat-form">
+      <input
+        id="chatInput"
+        type="text"
+        placeholder="Type your question..."
+        autocomplete="off"
+      >
+      <button type="submit" aria-label="Send">➤</button>
+    </form>
+
+    <div class="suggestions">
+      <button type="button">What are Arya's skills?</button>
+      <button type="button">Tell me about the projects</button>
+      <button type="button">How can I contact Arya?</button>
+    </div>
+
+    <small class="ai-note">
+      Demo UI — connect your preferred AI model through a backend later.
+    </small>
+  </article>
+
+
+  <article id="contact" class="panel reveal">
+
+    <div class="section-heading">
+      <h2>Contact</h2>
+    </div>
+
+    <p class="contact-lead">Get in touch</p>
+
+    <a class="contact-row" href="mailto:aryasawant782007@gmail.com">
+      ✉ <span>aryasawant782007@gmail.com</span>
+    </a>
+
+    <a class="contact-row" href="https://www.linkedin.com/in/arya-sawant-432a6641b" target="_blank" rel="noopener noreferrer">
+      in <span>LinkedIn</span>
+    </a>
+
+    <a class="contact-row" href="https://github.com/Sam25arya" target="_blank" rel="noopener noreferrer">
+      GH <span>https://github.com/Sam25arya</span>
+    </a>
+
+  </article>
+
+</section>
+
+      
+
+      <article id="contact" class="panel reveal">
+        <div class="section-heading"><h2>Contact</h2></div>
+        <p class="contact-lead">Get in touch</p>
+        <a class="contact-row" href="mailto:aryasawant782007@gmail.com">✉ <span>aryasawant782007@gmail.com</span></a>
+        <a class="contact-row" href="https://www.linkedin.com/in/arya-sawant-432a6641b" target="_blank" rel="noopener noreferrer">in <span>www.linkedin.com/in/arya-sawant-432a6641b</span></a>
+        <a class="contact-row" href="https://github.com/Sam25arya" target="_blank" rel="noopener noreferrer">GH <span>https://github.com/Sam25arya</span></a>
+      </article>
+    </section>
+  </main>
+
+  <footer>© <span id="year"></span> Arya Sawant · Built with HTML, CSS &amp; JavaScript</footer>
+  <div id="toast" class="toast" role="status"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
